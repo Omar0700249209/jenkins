@@ -1,0 +1,7 @@
+pipeline{
+agent any
+stages{
+stage('Username on current agent'){
+sh 'whoami'
+}}
+}
